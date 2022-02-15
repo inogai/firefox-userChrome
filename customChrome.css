@@ -1,0 +1,14 @@
+@import url(firefox-csshacks/chrome/autohide_sidebar.css);
+@import url(custom/autohide_sidebar.custom.css);
+
+@import url(firefox-csshacks/chrome/status_inside_urlbar_v2.css);
+@import url(custom/status_inside_urlbar_v2.custom.css);
+
+#titlebar {
+	height: 0px;
+}
+
+#sidebar-header,
+#tabbrowser-tabs {
+  display: none !important;
+}
