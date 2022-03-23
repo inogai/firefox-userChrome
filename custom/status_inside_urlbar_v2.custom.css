@@ -3,10 +3,10 @@
 }
 #statuspanel-inner > #statuspanel-label {
   background-color: #464646 !important;
-  color: #fff;
+  color: #fff !important;
+  font-size: 15.4px !important;
 }
 
 :-moz-window-inactive #statuspanel-inner > #statuspanel-label {
   background-color: #383838 !important;
-  font-size: 15.4px;
 }
