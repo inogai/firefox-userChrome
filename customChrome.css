@@ -12,3 +12,7 @@
 #tabbrowser-tabs {
   display: none !important;
 }
+
+.titlebar-button > .toolbarbutton-icon:-moz-lwtheme {
+  padding: unset !important;
+}

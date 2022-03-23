@@ -8,4 +8,5 @@
 
 :-moz-window-inactive #statuspanel-inner > #statuspanel-label {
   background-color: #383838 !important;
+  font-size: 15.4px;
 }
