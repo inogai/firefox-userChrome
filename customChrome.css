@@ -4,8 +4,10 @@
 @import url(firefox-csshacks/chrome/status_inside_urlbar_v2.css);
 @import url(custom/status_inside_urlbar_v2.custom.css);
 
+@import url(custom/csd.css);
+
 #titlebar {
-	height: 0px;
+  height: 0px;
 }
 
 #sidebar-header,

@@ -1,0 +1,15 @@
+:root[tabsintitlebar]:not([inFullscreen]) #nav-bar {
+  padding-right: 90px !important;
+}
+
+.titlebar-buttonbox-container {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  padding: 0;
+  height: 40px;
+  width: 90px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
