@@ -18,3 +18,8 @@
 .titlebar-button > .toolbarbutton-icon:-moz-lwtheme {
   padding: unset !important;
 }
+
+:root {
+  --lwt-toolbar-field-icon-fill-attention: #d65d0e;
+  --button-bgcolor: #d65d0e;
+}
