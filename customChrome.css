@@ -2,6 +2,7 @@
 @import url(custom/autohide_sidebar.custom.css); */
 
 @import url(FirefoxSidebar/userChrome.css);
+@import url(custom/FirefoxSidebar_allow_no_bookmarks_bar.css);
 
 @import url(firefox-csshacks/chrome/status_inside_urlbar_v2.css);
 @import url(custom/status_inside_urlbar_v2.custom.css);
@@ -15,4 +16,7 @@
 :root {
   --lwt-toolbar-field-icon-fill-attention: #d65d0e;
   --button-bgcolor: #d65d0e;
+
+  /* drannex42/FirefoxSidebar/prefs.css */
+  --custom-sidebar-header-bg: #2e3132;
 }
