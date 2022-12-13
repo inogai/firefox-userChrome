@@ -1,0 +1,9 @@
+#sidebar-box {
+  position: absolute !important;
+  inset: 0;
+  margin-top: 0 !important;
+}
+
+#sidebar-box:not([hidden="true"]) ~ #appcontent {
+  margin-left: var(--sidebar-width);
+}
