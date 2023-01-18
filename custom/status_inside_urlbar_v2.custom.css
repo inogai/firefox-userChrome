@@ -7,7 +7,7 @@
   height: 28px !important;
   background-color: var(--toolbar-field-background-color);
   padding: 0 0 0 58px;
-  display: flex;
+  display: flex !important;
 }
 
 #statuspanel::before {
