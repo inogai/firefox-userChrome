@@ -2,6 +2,11 @@
   padding-right: 90px !important;
 }
 
+/* to offset the shadow of my csd buttons */
+:root[tabsintitlebar] .titlebar-buttonbox {
+  margin-top: 1px;
+}
+
 .titlebar-buttonbox-container {
   position: absolute !important;
   top: 0;
