@@ -2,32 +2,24 @@
   inset: 0 1px;
 }
 
-#urlbar::before {
-  background-image: -moz-element(#statuspanel);
-}
-
-#statuspanel,
-#statuspanel-inner {
+#statuspanel {
   background-color: transparent;
   height: 28px !important;
-}
-
-#statuspanel-inner {
   background-color: var(--toolbar-field-background-color);
   padding: 0 0 0 58px;
+  display: flex;
 }
 
-#statuspanel-inner::before {
+#statuspanel::before {
   content: "";
   display: list-item;
   list-style-image: url(chrome://global/skin/icons/trackers.svg);
-
   fill: var(--toolbar-field-color);
-  line-height: 23px;
+  line-height: 29px;
   -moz-context-properties: fill, stroke;
 }
 
-#statuspanel-inner > #statuspanel-label {
+#statuspanel > #statuspanel-label {
   /* background-color: var(--toolbar-bgcolor) !important; */
   background-color: unset !important;
   color: #fff !important;
