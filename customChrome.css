@@ -18,5 +18,5 @@
   --button-bgcolor: #d65d0e;
 
   /* drannex42/FirefoxSidebar/prefs.css */
-  --custom-sidebar-header-bg: #2e3132;
+  --custom-sidebar-header-bg: var(--toolbar-bgimage) var(--toolbar-bgcolor) /* #2e3132 */;
 }
