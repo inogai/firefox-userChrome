@@ -1,32 +1,50 @@
 #urlbar::before {
-  inset: 0 1px;
+  inset: 2px !important;
+  background-position: 0 0;
 }
 
 #statuspanel {
   background-color: transparent;
   height: 28px !important;
   background-color: var(--toolbar-field-background-color);
-  padding: 0 0 0 58px;
   display: flex !important;
+  align-items: center !important;
+}
+
+#statuspanel {
+  padding: 0 0 0 58px !important;
+}
+
+#statuspanel {
+  z-index: 111 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 #statuspanel::before {
   content: "";
-  display: list-item;
+  display: list-item inline;
   list-style-image: url(chrome://global/skin/icons/trackers.svg);
   fill: var(--toolbar-field-color);
-  line-height: 29px;
   -moz-context-properties: fill, stroke;
+  padding-top: 5px !important;
 }
 
-#statuspanel > #statuspanel-label {
+#statuspanel-label {
   /* background-color: var(--toolbar-bgcolor) !important; */
   background-color: unset !important;
   color: #fff !important;
   font-size: 14px !important;
-  line-height: 28px;
-  display: block;
+  line-height: 28px !important;
+  height: 28px !important;
   /* border-left: 3px var(--panel-banner-item-info-icon-bgcolor) solid !important; */
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#statuspanel-label[crop="center"] {
+  position: relative;
+  top: 4px;
 }
 /*
 :-moz-window-inactive #statuspanel-inner > #statuspanel-label {
