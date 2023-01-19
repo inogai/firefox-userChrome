@@ -15,12 +15,6 @@
   padding: 0 0 0 58px !important;
 }
 
-#statuspanel {
-  z-index: 111 !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
 #statuspanel::before {
   content: "";
   display: list-item inline;
