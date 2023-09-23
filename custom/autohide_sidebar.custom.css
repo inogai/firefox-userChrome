@@ -1,4 +1,20 @@
 #sidebar-box {
   --uc-sidebar-width: 51px;
-  --uc-sidebar-hover-width: 260px;
+  --uc-sidebar-hover-width: 272px;
+  --uc-autohide-sidebar-delay: 200ms;
+}
+
+#sidebar-box:hover {
+  --uc-autohide-sidebar-delay: 0ms;
+}
+
+#sidebar-header,
+#sidebar {
+  transition-timing-function: ease-in-out;
+  transition-duration: 100ms !important;
+}
+
+#sidebar-box:hover #sidebar-header,
+#sidebar-box:hover #sidebar {
+  transition-duration: 50ms !important;
 }
