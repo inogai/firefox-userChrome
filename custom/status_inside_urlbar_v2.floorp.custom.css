@@ -1,0 +1,53 @@
+#urlbar::before {
+  inset: 2px !important;
+  background-position: 0 0;
+}
+
+#statuspanel {
+  background-color: transparent;
+  height: 28px !important;
+  background-color: var(--toolbar-field-background-color);
+  display: flex !important;
+  align-items: center !important;
+  max-width: calc(100vw - 51px) !important;
+}
+
+#statuspanel {
+  padding: 0 0 0 58px !important;
+}
+
+.browserStack > #statuspanel {
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+#statuspanel::before {
+  content: "";
+  display: list-item inline;
+  list-style-image: url(chrome://global/skin/icons/trackers.svg);
+  fill: var(--toolbar-field-color);
+  -moz-context-properties: fill, stroke;
+  padding-top: 5px !important;
+}
+
+#statuspanel-label {
+  /* background-color: var(--toolbar-bgcolor) !important; */
+  background-color: unset !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  line-height: 28px !important;
+  height: 28px !important;
+  /* border-left: 3px var(--panel-banner-item-info-icon-bgcolor) solid !important; */
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* #statuspanel-label[crop="center"] {
+  position: relative;
+  top: 4px;
+} */
+/*
+:-moz-window-inactive #statuspanel-inner > #statuspanel-label {
+  background-color: #383838 !important;
+}
+*/
