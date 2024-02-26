@@ -10,6 +10,7 @@
   display: flex !important;
   align-items: center !important;
   max-width: calc(100vw - 51px) !important;
+  position: absolute !important;
 }
 
 #statuspanel {
