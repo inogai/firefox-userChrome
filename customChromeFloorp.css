@@ -1,9 +1,25 @@
 @import url(firefox-csshacks/chrome/autohide_sidebar.css);
 @import url(custom/autohide_sidebar.custom.css);
 
-@import url(firefox-csshacks/chrome/status_inside_urlbar_v2.css);
-@import url(custom/status_inside_urlbar_v2.floorp.custom.css);
+/* @import url(firefox-csshacks/chrome/status_inside_urlbar_v2.css); */
+/* @import url(custom/status_inside_urlbar_v2.floorp.custom.css); */
 
+@import url(firefox-csshacks/chrome/hide_tabs_toolbar_osx.css);
+@import url(firefox-csshacks/chrome/autohide_main_toolbar.css);
+
+/* to compensate for sidebar_window */
+html[BSM-window="true"] #browser {
+  padding-top: 34px !important;
+}
+
+:root:not(.x):not(.y) {
+  --uc-toolbar-height: 20px; /* Floorp is 20px */
+  --uc-autohide-toolbar-delay: 200ms;
+
+  --uc-navbar-transform: -34px;
+}
+
+/* Hide csd buttons */
 #floorp-tabbar-window-manage-container {
   display: none !important;
 }
